@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fiverr Tool</title>
+    <link rel="stylesheet" href="fiverr.css">
+</head>
+<body>
+    <div id="username"></div>
+    <div id="price"></div>
+    <div id="repeat-buyer"></div>
+    <div id="job-type"></div>
+    <button onclick="completeTask()">Complete</button>
+    <button onclick="skipTask()">Skip</button>
+    <button onclick="editTask()">Edit</button>
+    <br>
+    <button onclick="addJob()">Add Job</button>
+    <br>
+    <select id="job-select" size="10"></select>
+    <br>
+    <button onclick="bulkEdit()">Bulk Edit</button>
+    <button onclick="bulkDelete()">Bulk Delete</button>
+    <br>
+    <label for="sort-select">Sort By:</label>
+    <select id="sort-select">
+        <option value="deadline">Deadline</option>
+        <option value="price">Price</option>
+        <option value="username-asc">Username (Ascending)</option>
+        <option value="username-desc">Username (Descending)</option>
+        <option value="rating">Rating</option>
+    </select>
+    <br>
+    <div id="monthly-earnings">Earnings: $0</div>
+    <script src="fiverr.js"></script>
+</body>
+</html>

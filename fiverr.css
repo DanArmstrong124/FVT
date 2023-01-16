@@ -1,0 +1,30 @@
+#username {
+    text-align: center;
+    font-size: 2em;
+}
+#price {
+    text-align: center;
+    font-size: 1.5em;
+}
+#job-type {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+#repeat-buyer {
+    text-align: center;
+}
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}
+#monthly-earnings {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    color: red;
+}
